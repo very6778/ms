@@ -2,7 +2,7 @@ import { createParser } from 'eventsource-parser'
 import type { ParsedEvent, ReconnectInterval } from 'eventsource-parser'
 import type { ChatMessage } from '@/types'
 
-export const model = import.meta.env.OPENAI_API_MODEL || 'ada'
+export const model = import.meta.env.OPENAI_API_MODEL || 'text-davinci-003'
 
 export const generatePayload = (apiKey: string, messages: ChatMessage[]): RequestInit & { dispatcher?: any } => ({
   headers: {
