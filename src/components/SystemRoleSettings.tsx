@@ -48,7 +48,7 @@ export default (props: Props) => {
             <IconEnv />
             <span>System Role:</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Bana nazikçe talimat verin ve Benim davranışımı ayarlayın..</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Benim size karşı olan Üslubumu değiştirebilirsiniz..</p>
           <div>
             <textarea
               ref={systemInputRef!}
