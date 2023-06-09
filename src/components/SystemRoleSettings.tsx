@@ -48,19 +48,19 @@ export default (props: Props) => {
             <IconEnv />
             <span>System Role:</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Bana nazikçe talimat verin ve Benim davranışımı ayarlayın..</p>
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
-              autocomplete="off"
+              placeholder="Örnek: Benimle Bir Doktor gibi konuş ve mümkün olduğunca kısa cevap ver...."
+              autocomplete="on"
               autofocus
               rows="3"
               gen-textarea
             />
           </div>
           <button onClick={handleButtonClick} gen-slate-btn>
-            Set
+            Tamam
           </button>
         </div>
       </Show>
