@@ -53,7 +53,7 @@ export default (props: Props) => {
             <textarea
               ref={systemInputRef!}
               placeholder="Örnek: Benimle Bir Doktor gibi konuş ve mümkün olduğunca kısa cevap ver...."
-              autocomplete="on"
+              autocomplete="off"
               autofocus
               rows="3"
               gen-textarea
